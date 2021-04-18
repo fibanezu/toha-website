@@ -1,24 +1,20 @@
-baseURL: https://toha-guides.netlify.app
-
-languageCode: en-us
-title: "Toha"
 theme: "toha"
+baseURL: http://francisca.netlify.com/
+languageCode: en-us
+title: " Francisca Ibáñez Uribe"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  es:
+    languageName: Español
+    weight: 1
   en:
     languageName: English
-    weight: 1
-  fr:
-    languageName: Français
     weight: 2
-  bn:
-    languageName: বাংলা
-    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: fr
+# DefaultContentLanguage: bn
 
 # Allow raw html in markdown file
 markup:
@@ -41,27 +37,31 @@ outputs:
 # Enable Google Analytics
 googleAnalytics: UA-122321624-2
 
-# Enable Disqus forum
-disqusShortname: toha-example-site
-
 # Enable global emoji support
 enableEmoji: true
 
 # Site parameters
 params:
   # Background image of the landing page
-  background: "images/site/background.jpg"
+  background: /images/site/fondo.jpg
+  
+  # Cambio de banderas en el idiona
+  flagOverwrites:
+    - languageCode: es
+      countryCode: chl
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   # It will default to the theme logos if not provided.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/logoblack.png
+    inverted: /images/site/logowhite.png
+    favicon: /images/site/logoblack.png
 
-  # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/guides
+  # GitHub repo of your site
+  gitRepo: 
+  # Default branch of your Git repo
+  gitBranch: 
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
@@ -72,4 +72,4 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
+    enable: false
