@@ -6,6 +6,8 @@ slug: [portfolio]
 categories: [work]
 tags: [portfolio, work, urban development]
 hero: images/portfolio.png
+sidebar:
+  weight: 120
 ---
 
 
