@@ -2,16 +2,16 @@
 name: "Francisca Ibáñez"
 nickname: "Francisca"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi! I am"
+greeting: "¡Hola! Soy"
 image: "images/author/myAvatar.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "fdibanez@uc.cl"
-  phone: "+56 9 98895331"
+  correo: "fdibanez@uc.cl"
+  telefono: "+56 9 98895331"
 
 # some summary about what you do
 summary:
-  - Urban Planner
-  - Geographer
-  - Amateur Developer
-  - I love to work with some fun new projects
+- Planificadora Urbana
+- Geógrafa
+- Programadora amateur
+- Me encanta trabajar en cosas nuevas

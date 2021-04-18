@@ -6,59 +6,48 @@ section:
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true
+  # hideTitle: true 
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Centro de Estudios de Conflicto y Cohesión Social (COES)
+    url: "https://coes.cl/"
+    location: Santiago, Chile
+    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Research Assistant
+    start: January 2020
+    end: 
+    responsibilities:
+    - I am doing my master's thesis (Master in Geography and Geomatics) within a Mini COES project about peer efect in rental subsidy.
+    - Data Analysis
+    
+- company:
+    name: FONDEF IT18I0028
+    url: "https://www.conicyt.cl/fondef/"
+    location: Santiago, Chile
+    # company overview
+    overview: 
+  positions:
+  - designation: Research Assistant
+    start: March 2020
+    end: March 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - I did my master's thesis (Master in Urban Development) within the project "Predictor model of land carryin capacity for sustainable management".
+    - Creation of survey and methodology for the evaluation of territorial carrying capacity.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Techo Chile
+    url: "https://www.techo.org/chile/inmobiliaria-social/"
+    location: Santiago, Chile
+    overview: Social real estate area, which builds of permanent homes.
   positions:
   - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+    start: December 2019
+    end: February 2020
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Creation of a multivariable methodology for the selection of land suitable for construction of social hpusing through te use of ArcGis.
